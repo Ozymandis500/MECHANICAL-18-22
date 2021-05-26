@@ -1,0 +1,59 @@
+:root
+{
+    font-family: 'Cairo', sans-serif;
+}
+body
+{
+    color:aliceblue;
+    background-color: black;
+}
+
+table
+{
+    stroke-width: 2px solid white;
+    border-width: 2px;
+    width: 80%;
+
+}
+th
+{
+   
+    padding: 2%;
+    color:aquamarine;
+}
+
+#Slot
+{
+    align-items: left;
+}
+
+
+#top
+{
+    margin: auto;
+    text-align: center;
+    width: 40%;
+    height: auto;
+    padding-bottom: 2%;
+}
+
+#bottom
+{
+    margin-left: 10%;
+    width: 100%;
+}
+
+td
+{
+    text-align: center;
+}
+
+#D
+{
+    text-align: left;
+}
+
+#S
+{
+    text-align: left;
+}
