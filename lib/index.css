@@ -18,6 +18,8 @@ table
 
 tr:hover 
 {
+    font-size: 1.2rem;
+    text-decoration: bold;
     background-color: rgba(81, 227, 253, 0.733);
     color: red;
 }
