@@ -1,1 +1,1 @@
-TIMETABLE.html
+<link src=TIMETABLE.html>
