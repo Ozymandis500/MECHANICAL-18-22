@@ -13,60 +13,51 @@
       <!--
         trying new things
       -->
-      <p id="hrs"></p>
-      <p id="day"></p>
-      <script>
-        var t = new Date();
-        document.getElementById("hrs").innerHTML = t.getHours();
-        var d = new Date();
-        document.getElementById("day").innerHTML = d.getDay();
-        </script>
-
-      <h1><b><center>TIMETABLE S6 ME-A</center></b></h1>
+        <h1><b><center>TIMETABLE S6 ME-A</center></b></h1>
         <div id="top">
         <table  align="center">  
           <tr>
-              <th id="D">DAY</th>
+              <th class="D">DAY</th>
               <th>1<sup>st</sup> HOUR</th>
               <th>2<sup>nd</sup> HOUR</th>
               <th>3<sup>rd</sup> HOUR</th>
               <th>4<sup>th</sup> HOUR</th>
               <th>5<sup>th</sup> HOUR</th>
             </tr>
-            <tr>
-              <td id="D">MONDAY</td>
+            <tr class="SELECT">
+              <td class="D" id="mon">MONDAY</td>
               <td>D</td>
               <td>C</td>
               <td>F</td>
               <td>B</td>
               <td>A</td>
             </tr>
-            <tr>
-              <td id="D">TUESDAY</td>
+            <tr class="SELECT">
+              <td class="D" id="tue">TUESDAY</td>
               <td>E</td>
               <td>P</td>
               <td>A</td>
               <td>F</td>
               <td>S</td>
             </tr>
-            <tr>
-              <td id="D">WEDNESDAY</td>
+            <tr class="SELECT">
+              <td class="D" id="wed">WEDNESDAY</td>
               <td>A</td>
               <td>C</td>
               <td>B</td>
               <td>D</td>
               <td>T</td>
             </tr>
-            <tr>
-              <td id="D">THURSDAY</td>
+            <tr class="SELECT">
+              <td class="D" id="thu">THURSDAY</td>
               <td>B</td>
               <td>A</td>
               <td>F</td>
               <td>E</td>
               <td>D</td>
             </tr>
-            <tr>
-              <td id="D">FRIDAY</td>
+            <tr class="SELECT">
+              <td class="D" id="fri">FRIDAY</td>
               <td>U</td>
               <td>U</td>
               <td>B</td>
@@ -79,80 +70,88 @@
           2nd part of the time table
         -->
         <div id="bottom">
-          <table class="hoverTable">  
+          <table>  
             <tr>
                 <th id="C">SLOT</th>
                 <th id="C"> CODE</th>
                 <th id="A">COURSE</th>
                 <th id="A">COURSE FACULTY</th>
               </tr>
-              <tr>
+              <tr class="SELECT" id="one">
                 <td>A</td>
                 <td>ME 302</td>
-                <td id="D"><a href="https://meet.google.com/lookup/cfhrd422yq?authuser=2&hs=179">HEAT AND MASS TRANSFER</a></td>
-                <td id="D">BASIL GEORGE THOMAS</td>
+                <td class="D"><a href="https://meet.google.com/lookup/cfhrd422yq?authuser=2&hs=179">HEAT AND MASS TRANSFER</a></td>
+                <td class="D">BASIL GEORGE THOMAS</td>
               </tr>
-              <tr>
+              <tr class="SELECT" id="two">
                 <td>B</td>
                 <td>ME 304</td>
-                <td id="D"><a href="https://teams.microsoft.com/l/team/19%3ad65fbdff4d9a46a9af53fb801ee5cdf7%40thread.tacv2/conversations?groupId=e09278ac-4db4-4d81-92d8-39a6c4fca811&tenantId=92000210-bc75-458a-9284-c56e5b20aaeb">DYNAMICS OF MACHINERY</a></td>
-                <td id="D">Dr. AMITH ARAVIND</td>
+                <td class="D"><a href="https://teams.microsoft.com/l/team/19%3ad65fbdff4d9a46a9af53fb801ee5cdf7%40thread.tacv2/conversations?groupId=e09278ac-4db4-4d81-92d8-39a6c4fca811&tenantId=92000210-bc75-458a-9284-c56e5b20aaeb">DYNAMICS OF MACHINERY</a></td>
+                <td class="D">Dr. AMITH ARAVIND</td>
               </tr>
-              <tr>
+              <tr class="SELECT" id="three">
                 <td>C</td>
                 <td>ME 306</td>
-                <td id="D"><a href="https://meet.google.com/lookup/gjeq4lcptt?authuser=2&hs=179">MANUFACTURING TECHNOLOGY</a></td>
-                <td id="D">SREEKUMAR C</td>
+                <td class="D"><a href="https://meet.google.com/lookup/gjeq4lcptt?authuser=2&hs=179">MANUFACTURING TECHNOLOGY</a></td>
+                <td class="D">SREEKUMAR C</td>
               </tr>
-              <tr>
+              <tr class="SELECT" id="four">
                 <td>D</td>
                 <td>ME 308</td>
-                <td id="D"><a href="https://meet.google.com/lookup/btwsfjvjqd?authuser=2&hs=179">COMPUTER AIDED DESIGNING AND ANALYSIS</a></td>
-                <td id="D">ARUN K VARGHESE</td>
+                <td class="D"><a href="https://meet.google.com/lookup/btwsfjvjqd?authuser=2&hs=179">COMPUTER AIDED DESIGNING AND ANALYSIS</a></td>
+                <td class="D">ARUN K VARGHESE</td>
               </tr>
-              <tr>
+              <tr class="SELECT" id="five">
                 <td>E</td>
                 <td>ME 312</td>
-                <td id="D"><a href="">METROLOGY AND INSTRUMENTATION</a></td>
-                <td id="D">Dr MANU RAMANAN</td>
+                <td class="D"><a href="">METROLOGY AND INSTRUMENTATION</a></td>
+                <td class="D">Dr MANU RAMANAN</td>
               </tr>
-              <tr>
+              <tr class="SELECT" id="six">
                 <td>F</td>
                 <td>ME 366</td>
-                <td id="D"><a href="https://teams.microsoft.com/l/channel/19%3a817d4fc4db8f40d5a91ec726664b5493%40thread.tacv2/General?groupId=a56a30f3-26e4-4c13-ae53-9bd3faa13cdf&tenantId=92000210-bc75-458a-9284-c56e5b20aaeb">ADVANCED METAL JOINING TECHNOLOGY</a></td>
-                <td id="D">Dr CHERIAN PAUL</td>
+                <td class="D"><a href="https://teams.microsoft.com/l/channel/19%3a817d4fc4db8f40d5a91ec726664b5493%40thread.tacv2/General?groupId=a56a30f3-26e4-4c13-ae53-9bd3faa13cdf&tenantId=92000210-bc75-458a-9284-c56e5b20aaeb">ADVANCED METAL JOINING TECHNOLOGY</a></td>
+                <td class="D">Dr CHERIAN PAUL</td>
               </tr>
-              <tr>
+              <tr class="SELECT" id="seven">
                 <td>F</td>
                 <td>ME 368</td>
-                <td id="D"><a href="https://meet.google.com/lookup/gvsdj7u6ih?authuser=2&hs=179">MARKETING MANAGEMENT</a></td>
-                <td id="D">PHILIP JACOB P</td>
+                <td class="D"><a href="https://meet.google.com/lookup/gvsdj7u6ih?authuser=2&hs=179">MARKETING MANAGEMENT</a></td>
+                <td class="D">PHILIP JACOB P</td>
               </tr>
-              <tr>
+              <tr class="SELECT" id="eight">
                 <td>S</td>
                 <td>ME 332</td>
-                <td id="D"><a href="">COMPUTER AIDED DESIGN AND ANALYSIS LAB</a></td>
-                <td id="D">LIJU MATHEW ALAXANDER and ARJUN V</td>
+                <td class="D"><a href="">COMPUTER AIDED DESIGN AND ANALYSIS LAB</a></td>
+                <td class="D">LIJU MATHEW ALAXANDER and ARJUN V</td>
               </tr>
-              <tr>
+              <tr class="SELECT" id="nine">
                 <td>T</td>
                 <td>ME 334</td>
-                <td id="D"><a href="">MANUFACTURING TECHNOLOGY LAB 2</a></td>
-                <td id="D">PHILIP JACOB P and RITTIN ABRAHAM K</td>
+                <td class="D"><a href="">MANUFACTURING TECHNOLOGY LAB 2</a></td>
+                <td class="D">PHILIP JACOB P and RITTIN ABRAHAM K</td>
               </tr>
-              <tr>
+              <tr class="SELECT" id="ten">
                 <td>P</td>
                 <td>  --  </td>
-                <td id="D"><a href="https://meet.google.com/tfq-xgih-rxz">PLACEMENT</a></td>
-                <td id="D">ARYA</td>
+                <td class="D"><a href="https://meet.google.com/tfq-xgih-rxz">PLACEMENT</a></td>
+                <td class="D">ARYA</td>
               </tr>
-              <tr>
+              <tr class="SELECT" id="eleven">
                 <td>U</td>
                 <td>ME 352</td>
-                <td id="D"><a href="">COMPREHENSIVE EXAM</a></td>
-                <td id="D">AJU JO S, Dr AJITH K.M and Dr AMITH ARAVIND</td>
+                <td class="D"><a href="">COMPREHENSIVE EXAM</a></td>
+                <td class="D">AJU JO S, Dr AJITH K.M and Dr AMITH ARAVIND</td>
               </tr>
             </table> 
           </div>
+          <p id="hrs"></p>
+          <p id="day"></p>
+          <script>
+            var t = new Date();
+            document.getElementById("hrs").innerHTML = t.getHours();
+            var d = new Date();
+            document.getElementById("day").innerHTML = d.getDay();
+          </script> 
     </body>
 </html>
