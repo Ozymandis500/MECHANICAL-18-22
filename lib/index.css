@@ -25,6 +25,7 @@ td
 
 .SELECT :hover
 {
+    border-radius: .7rem;
     font-size: 1.05rem;
     font-style: bold;
     background-color: rgb(110, 241, 198);
