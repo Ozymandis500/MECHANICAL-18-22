@@ -10,54 +10,58 @@ body
 
 table
 {
-    stroke-width: 2px solid white;
-    border-width: 2px;
+    stroke-width: 1rem solid white;
+    border-width: 2rem;
     width: 80%;
 
 }
+
+tr:hover 
+{
+    background-color: rgba(81, 227, 253, 0.733);
+    color: red;
+}
+
 th
 {
    
-    padding: 2%;
+    padding: 0.5rem;
     color:aquamarine;
 }
 
 a
 {
     text-decoration: none;
-    text-decoration-color: white;
     color: white;
 }
-
-a :hover
-{
-    text-decoration: underline;
-    text-decoration-color: red;
-}
-
-
-#Slot
-{
-    align-items: left;
-}
-
 
 #top
 {
     margin: auto;
     text-align: center;
-    width: 50%;
+    width: 50rem;
     height: auto;
-    padding-bottom: 2%;
+    padding-bottom: 3rem;
 }
 
 #bottom
 {
-    margin-left: 10%;
-    width: 100%;
+    margin-left: 15rem;
+    width: auto;
 }
 
 td
+{
+    text-align: center;
+}
+
+#A
+{
+    text-align: left;
+    width: 20rem;
+}
+
+#C
 {
     text-align: center;
 }
