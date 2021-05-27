@@ -25,6 +25,17 @@ a
     color: white;
 }
 
+.current
+{
+    padding-bottom: 1.5rem;
+    text-align: left;
+}
+
+#today
+{
+    padding-bottom: 1rem;
+}
+
 .SELECT :hover
 {
     text-align: center;
@@ -55,6 +66,15 @@ a
 #A
 {
     text-align: left;
+}
+
+.B
+{
+    padding-left: .2rem;
+    padding-right: .2rem;
+    text-align: left;
+    text-align: left;
+    color: hsl(323, 91%, 56%);
 }
 
 #C
