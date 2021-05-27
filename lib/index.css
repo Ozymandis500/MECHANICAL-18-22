@@ -41,11 +41,13 @@ a
     text-align: center;
     width: 50rem;
     height: auto;
+    padding-bottom: 5rem;
 }
 
 #bottom
 {
-    margin:auto;
+    position: relative;
+    margin: auto;
     padding-top: 5rem;
     width: auto;
 }
@@ -71,4 +73,40 @@ a
 #S
 {
     text-align: left;
+}
+
+/* For Mobile */
+@media screen and (max-width: 900px) {
+    img {
+        width: 25rem;
+    }
+}
+
+/* For Tablets */
+@media screen and (min-width: 1280px) and (max-width: 1920px) {
+    img {
+        width: 60rem;
+    }
+}
+
+img
+{
+    position: absolute;
+    top: .2rem;
+    left: 20rem;
+    animation: fadeInAnimation ease-in-out 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation
+{
+    0%
+    {
+        opacity: 1;
+    }
+    100%
+    {
+        opacity: 0;
+    }
 }
