@@ -72,18 +72,18 @@ a
 
 #bottom
 {
-    margin-left: 30rem;
+    text-align: center;
+    margin: auto;
+    width: 80rem;
 }
 
 #A
 {
     text-align: left;
-    width: 15rem;
 }
 
 #C
 {
-    width: 4rem;
     text-align: center;
 }
 
