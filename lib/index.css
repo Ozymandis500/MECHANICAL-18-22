@@ -45,8 +45,9 @@ a
 
 #bottom
 {
+    margin:auto;
     padding-top: 5rem;
-    width: 80rem;
+    width: auto;
 }
 
 #A
@@ -62,7 +63,8 @@ a
 
 .D
 {
-    padding-right: 1.5rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
     text-align: left;
 }
 
