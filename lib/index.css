@@ -81,7 +81,7 @@ a
         width: 20rem;
         position: absolute;
         top: .2rem;
-        left: 15rem;
+        left: .5rem;
         animation: fadeInAnimation ease-in-out 5s;
         animation-iteration-count: 1;
         animation-fill-mode: forwards;
