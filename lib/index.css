@@ -78,7 +78,7 @@ a
 /* For Mobile */
 @media screen and (max-width: 720px) {
     img {
-        width: 10rem;
+        width: 20rem;
     }
 }
 
@@ -93,7 +93,7 @@ img
 {
     position: absolute;
     top: .2rem;
-    left: 20rem;
+    left: 28rem;
     animation: fadeInAnimation ease-in-out 5s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
