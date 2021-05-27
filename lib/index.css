@@ -79,6 +79,12 @@ a
 @media screen and (max-width: 720px) {
     img {
         width: 20rem;
+        position: absolute;
+        top: .2rem;
+        left: 15rem;
+        animation: fadeInAnimation ease-in-out 5s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
     }
 }
 
@@ -86,17 +92,13 @@ a
 @media screen and (min-width: 1280px) and (max-width: 1920px) {
     img {
         width: 60rem;
+        position: absolute;
+        top: .2rem;
+        left: 28rem;
+        animation: fadeInAnimation ease-in-out 5s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
     }
-}
-
-img
-{
-    position: absolute;
-    top: .2rem;
-    left: 28rem;
-    animation: fadeInAnimation ease-in-out 5s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
 }
 
 @keyframes fadeInAnimation
