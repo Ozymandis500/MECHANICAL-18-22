@@ -8,23 +8,14 @@ body
     background-color: black;
 }
  
-table
-{
-    stroke-width: 2rem;
-    border-color: red;
-    width: 80%;
-
-}
-
 td
 {
     text-align: center;
 }
 
-
-
 .SELECT :hover
 {
+    text-align: center;
     border-radius: .7rem;
     font-size: 1.05rem;
     font-style: bold;
@@ -50,13 +41,11 @@ a
     text-align: center;
     width: 50rem;
     height: auto;
-    padding-bottom: 3rem;
 }
 
 #bottom
 {
-    text-align: center;
-    margin: auto;
+    padding-top: 5rem;
     width: 80rem;
 }
 
@@ -67,12 +56,13 @@ a
 
 #C
 {
+    padding-left: 1.5rem;
     text-align: center;
 }
 
 .D
 {
-    padding-left: 1.5rem;
+    padding-right: 1.5rem;
     text-align: left;
 }
 
