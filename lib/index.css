@@ -76,9 +76,9 @@ a
 }
 
 /* For Mobile */
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 480px) {
     img {
-        width: 20rem;
+        width: 15rem;
         position: absolute;
         top: .2rem;
         animation: fadeInAnimation ease-in-out 5s;
