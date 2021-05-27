@@ -4,25 +4,8 @@
 }
 body
 {
-    text-align: center;
     color:aliceblue;
     background-color: black;
-}
-
-.marquee {
-    text-align: center;
-    width: auto;
-    margin: 0 auto;
-    background: none;
-    white-space: nowrap;
-    overflow: hidden;
-    box-sizing: border-box;
-    color: rgba(174, 0, 255, 0.425);
-    font-size:18px;
- }
-.marquee :hover
-{
-    color: rgb(132, 0, 255);
 }
  
 table
